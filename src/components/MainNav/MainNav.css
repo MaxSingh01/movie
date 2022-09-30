@@ -1,0 +1,10 @@
+.MuiSvgIcon-root {
+  height: 2em;
+  width: 2em;
+}
+.MuiBottomNavigationAction-label.Mui-selected {
+    font-size: 1.5rem;
+}
+.MuiBottomNavigationAction-label{
+    font-size: 1.2rem;
+}

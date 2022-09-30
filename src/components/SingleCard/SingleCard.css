@@ -1,0 +1,64 @@
+.media {
+  display: grid;
+  width: 28rem;
+  justify-self: center;
+  padding: 1rem;
+  row-gap: 0.5rem;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.movieTitle {
+  font-size: 1.8rem;
+  justify-self: center;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  font-size: 1.3rem;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+.MuiBadge-anchorOriginTopRightRectangular {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .media{
+    width: 100%;
+  }
+  .movieTitle{
+    font-size: 2.5rem;
+  }
+  .MuiBadge-anchorOriginTopRightRectangular {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .subTitle{
+    font-size: 2rem;
+  }
+  }
