@@ -60,7 +60,7 @@ const Search = ({setUser}) => {
             variant="contained"
             style={{ marginLeft: 10 }}
             type="submit"
-            onClick={() => setUser(false)}
+            onClick={() => auth.signOut()}
           >
             <ExitToAppIcon fontSize="large"/>
           </Button>
